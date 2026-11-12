@@ -1,0 +1,32 @@
+{
+    "type": "object",
+    "properties": {
+        "capacidad": {
+            "type": "number"
+        },
+        "material": {
+            "type": "string"
+        },
+        "colores": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "hechos_hiper": {
+            "type": "object",
+            "properties": {
+                "h1": {
+                    "type": "string"
+                },
+                "h2": {
+                    "type": "number"
+                }
+            }
+        }
+    },
+    "required": [
+        "capacidad",
+        "material"
+    ]
+}
